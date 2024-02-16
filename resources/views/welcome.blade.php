@@ -22,8 +22,8 @@
             <source src="{{ asset('assets/waterbg.mp4') }}" type="video/mp4">
         </video>
     </div>
-    <section class="-z-20 2xl:h-screen min-h-full sm:py-32 flex justify-center items-center " id="hero">
-        <div class="py-8 px-4 flex-col flex h-full gap-3 justify-center mx-auto lg: max-w-screen-xl text-center lg:pt-16 lg:px-12">
+    <section class="-z-20 h-screen sm:pt-32 flex justify-center items-center " id="hero">
+        <div class="px-4 flex-col flex h-full gap-3 justify-center mx-auto lg:max-w-screen-xl text-center lg:px-12">
             <h1 class="mb-4 text-5xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white font-poppins">
                 We give
                 <span class="neon">
@@ -35,7 +35,7 @@
 
 
             <p class="mb-8 text-lg font-light font-poppins text-gray-400 lg:text-lg sm:px-16 xl:px-48 dark:text-gray-400">Optimize your hydration with our premium water refilling service. Enjoy pure and refreshing water that satisfies and revitalizes. Choose excellence in every drop..</p>
-            <div class="flex mb-8 lg:mb-16 gap-2 justify-center sm:flex-row">
+            <div class="flex gap-2 justify-center sm:flex-row">
                 <a href="{{ route('order') }}" class=" inline-flex justify-center gap-2 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-600 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
                     Order now
                     <i class="fas fa-shopping-cart"></i>
@@ -169,7 +169,7 @@
 
     </div>
 </section> --}}
-<section class="flex flex-col items-center 2xl:-mt-20" id="services">
+<section class="flex flex-col items-center overflow-hidden" id="services">
     <h2 class="mb-4 text-4xl tracking-tight text-gray-200 font-poppins dark:text-white">
             What we do.</h2>
     <div class="bg-gray-950 dark:bg-gray-900" data-aos="zoom-out" data-aos-once="true">
